@@ -17,5 +17,6 @@
       <Button fx:id="teaButton" layoutX="141.0" layoutY="225.0" mnemonicParsing="false" text="HERBATA" />
       <Button fx:id="cofeeButton" layoutX="14.0" layoutY="258.0" mnemonicParsing="false" text="KAWA" />
       <Label layoutX="18.0" layoutY="14.0" text="Historia: " />
+      <TextField fx:id="coinText" layoutX="74.0" layoutY="258.0" />
    </children>
 </AnchorPane>

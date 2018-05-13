@@ -4,6 +4,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
 
 
 public class Controller implements VendingStateMachine.OnDialogCallback {
@@ -24,6 +25,8 @@ public class Controller implements VendingStateMachine.OnDialogCallback {
     @FXML
     private TextArea history;
 
+    @FXML
+    private TextField coinText;
     private VendingStateMachine stateMachine;
 
     @FXML
@@ -47,5 +50,6 @@ public class Controller implements VendingStateMachine.OnDialogCallback {
     private void changeState(INPUT input) {
         stateMachine.changeState(input);
         history.setText(stateMachine.getHistory());
+        coinText.setText(stateMachine.getCurrentCoins());
     }
 }
