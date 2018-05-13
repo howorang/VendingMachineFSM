@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="301.0" prefWidth="232.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextArea fx:id="history" layoutX="14.0" layoutY="38.0" prefHeight="176.0" prefWidth="200.0" wrapText="true" />
+      <Button fx:id="oneButton" layoutX="14.0" layoutY="225.0" mnemonicParsing="false" text="1 zł" />
+      <Button fx:id="twoButton" layoutX="56.0" layoutY="225.0" mnemonicParsing="false" text="2 zł" />
+      <Button fx:id="fiveButton" layoutX="97.0" layoutY="225.0" mnemonicParsing="false" text="5 zł" />
+      <Button fx:id="teaButton" layoutX="141.0" layoutY="225.0" mnemonicParsing="false" text="HERBATA" />
+      <Button fx:id="cofeeButton" layoutX="14.0" layoutY="258.0" mnemonicParsing="false" text="KAWA" />
+      <Label layoutX="18.0" layoutY="14.0" text="Historia: " />
+   </children>
+</AnchorPane>
